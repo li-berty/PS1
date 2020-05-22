@@ -1,2 +1,2 @@
-# ps1
-Some PowerShell scripts
+# Some PowerShell scripts
+-------------------------
