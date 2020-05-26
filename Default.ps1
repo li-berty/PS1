@@ -17,8 +17,6 @@
     .DESCRIPTION
     
     .EXAMPLE
-        
-    .EXAMPLE
     
     .LINK
     https://github.com/li-berty/--ENTERNAMEHERE--
