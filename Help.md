@@ -65,6 +65,17 @@ Can be used in script with $args field
 `$servername = $args[0]`  
 `$username = $args[1]`
 
++ **Miscellaneous**
+Link break *__(Shift^ + space)__*:  
+`Get-Process | Select-Object``  
+`name, ID`  
+Comments: **#**  
+`# code here not executed`  
+Several commands in one $a=1; $b=3; $c=9  
+`$a=1; $b=3; $c=9`  
+Forward output: **|**  
+`Get-Service | Get-Member`
+
 ***
 # Template
 <pre>
