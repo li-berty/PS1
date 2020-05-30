@@ -45,8 +45,7 @@ And queried with $:
 >To generate a new instance of a COM object *__New-Object -comobject (ProgID)__*:  
 `$a = New-Object –comobject "wscript.network"`  
 `$a.username`  
-
->To generate an instance of a .Net Framework object (parameters can be transmitted when necessary)*__New-Object –type (.Net Object)__*:   
+To generate an instance of a .NetFramework object (parameters can be transmitted when necessary) *__New-Object –type (.Net Object)__*:   
 `$d = New-Object -Type System.DateTime 2006,12,25`  
 `$d.get_DayOfWeek()`  
 
