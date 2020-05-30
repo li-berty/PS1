@@ -1,5 +1,5 @@
 # Cheat sheet
-**Important commands**  
+## Important commands  
 To get help on a cmdlet *__get-help__*:  
 `Get-Help Get-Service`  
 List of all available cmdlets *__get-command__*:  
@@ -13,7 +13,7 @@ Reading and changing security policy *__Get-Execution__* and *__Set-Execution po
 `Set-Executionpolicy remotesigned`  
 
 **Executing a script**  
-<mark>powershell.exe –noexit &”c:\myscript.ps1”</mark>
+`powershell.exe –noexit &”c:\myscript.ps1”`  
 
 ***
 
