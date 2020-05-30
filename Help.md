@@ -66,15 +66,15 @@ Can be used in script with $args field
 `$username = $args[1]`
 
 + **Miscellaneous**
->Link break *__(Shift^ + space)__*:  
+>Comments: **#**  
+`# code here not executed`  
+Forward output: **|**  
+`Get-Service | Get-Member`  
+Link break *__(Shift^ + space)__*:  
 `Get-Process | Select-Object`  
 `name, ID`  
-Comments: **#**  
-`# code here not executed`  
-Several commands in one $a=1; $b=3; $c=9  
-`$a=1; $b=3; $c=9`  
-Forward output: **|**  
-`Get-Service | Get-Member`
+Several commands in one:  
+`$a=1; $b=3; $c=9`
 
 ***
 # Template
