@@ -1,5 +1,5 @@
 # Cheat sheet
-[temp]; (Template)
+Template]. (tmp)
 
 + **Executing a script**
 >`powershell.exe –noexit &”c:\myscript.ps1”`
