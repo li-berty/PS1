@@ -33,14 +33,13 @@ All properties and methods of an item *__get-member__*:
  <dt>#></dt>
 
 <dt>[CmdletBinding()]</dt>
+
   <dd>param(</dd>
   <dd>)(</dd>
 
+  <dd>Begin{</dd>
+  <dd>}</dd>
 
-
-Begin{
-
-}
 
 Process{
 
