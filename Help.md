@@ -22,15 +22,15 @@ All properties and methods of an item *__get-member__*:
 > #
 > ###############################################################################################################
 
-> <  
+> <#  
 >   .SYNOPSIS  
 >
 >   .DESCRIPTION  
 >  
 >   .EXAMPLE  
 >  
->   .LINK  
->   https://github.com/li-berty/--ENTERNAMEHERE--  
+>    .LINK  
+>    https://github.com/li-berty/--ENTERNAMEHERE--  
 > #>  
 
 [CmdletBinding()]
