@@ -1,5 +1,4 @@
 # Cheat sheet
-<#
 <b>Important commands</b>
 To get help on a cmdlet <b><i>get-help</i></b>:
 `Get-Help Get-Service`<br>
@@ -7,7 +6,7 @@ List of all available cmdlets <i>get-command</i>:
 	Get-Command
 All properties and methods of an item <i>get-member</i>:
 	Get-Service | Get-Member<br>
-#>
+
 
 # Template
 
