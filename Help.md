@@ -1,6 +1,6 @@
 # Cheat sheet
-<b>Important commands</b><br>
-To get help on a cmdlet <b><i>get-help</i></b>:<br>
+<h2>Important commands</h2><br>
+To get help on a cmdlet *__get-help__*:<br>
 `Get-Help Get-Service`<br>
 List of all available cmdlets <i>get-command</i>:
 	Get-Command
