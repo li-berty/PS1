@@ -1,15 +1,15 @@
-<b><u>Cheat sheet</u></b>
+#Cheat sheet
 
-<b>Important commands</b>'n
-To get help on a cmdlet <i>get-help</i>:'n
-	Get-Help Get-Service'n
-List of all available cmdlets <i>get-command</i>:'n
-	Get-Command'n
-All properties and methods of an item <i>get-member</i>:'n
-	Get-Service | Get-Member'n
+<b>Important commands</b>`n
+To get help on a cmdlet <i>get-help</i>:`n
+	Get-Help Get-Service`n
+List of all available cmdlets <i>get-command</i>:`n
+	Get-Command`n
+All properties and methods of an item <i>get-member</i>:`n
+	Get-Service | Get-Member`n
 
-<b>Template</b>
-
+#Template
+"
 ###############################################################################################################
 # Language     :  PowerShel
 # Filename     :  
@@ -49,4 +49,4 @@ Process{
 
 End{
 
-}
+}"
