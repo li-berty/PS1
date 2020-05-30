@@ -6,7 +6,7 @@ List of all available cmdlets *__get-command__*:
 `Get-Command`  
 All properties and methods of an item *__get-member__*:  
 `Get-Service | Get-Member`  
-
+***
 # Template
 
 > ###############################################################################################################
