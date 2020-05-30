@@ -25,14 +25,14 @@ All properties and methods of an item <i>get-member</i>:
 !###############################################################################################################
 
 <#<br>
-    .SYNOPSIS<br>
+    .SYNOPSIS
     
-    .DESCRIPTION<br>
+    .DESCRIPTION
     
-    .EXAMPLE<br>
+    .EXAMPLE
     
     .LINK
-    https://github.com/li-berty/--ENTERNAMEHERE--<br>
+    https://github.com/li-berty/--ENTERNAMEHERE--
 #><br>
 
 [CmdletBinding()]
