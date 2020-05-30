@@ -1,12 +1,11 @@
 # Cheat sheet
-**Important commands**<br>
-To get help on a cmdlet *__get-help__*:<br>
-`Get-Help Get-Service`<br>
-List of all available cmdlets *__get-command__*:<br>
+**Important commands**  
+To get help on a cmdlet *__get-help__*:  
+`Get-Help Get-Service`  
+List of all available cmdlets *__get-command__*:  
 `Get-Command`<br>
-All properties and methods of an item *__get-member__*:<br>
-`Get-Service | Get-Member`<br>
-
+All properties and methods of an item *__get-member__*:  
+`Get-Service | Get-Member`  
 
 # Template
 
