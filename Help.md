@@ -1,7 +1,6 @@
 # Cheat sheet
 
 <b>Important commands</b><br>
---------------------
 To get help on a cmdlet<b><i>get-help</i></b>:<br>
 <b>Get-Help Get-Service</b><br>
 List of all available cmdlets <i>get-command</i>:<br>
@@ -11,29 +10,29 @@ All properties and methods of an item <i>get-member</i>:<br>
 
 # Template
 
-"###############################################################################################################"
-"# Language    : PowerShel"
-"# Filename    : "
-"# Autor       : Berty Li (https://github.com/li-berty)"
-"# Description : "
-"# Version     : "
-"# Repository  : https://github.com/li-berty/--ENTERNAMEHERE--
-!###############################################################################################################
+###############################################################################################################"
+!# Language    : PowerShel"
+! Filename    : "
+! Autor       : Berty Li (https://github.com/li-berty)"
+! Description : "
+! Version     : "
+! Repository  : https://github.com/li-berty/--ENTERNAMEHERE--
+###############################################################################################################
 !#
 !# Changelog
 !#
 !###############################################################################################################
 
-<#
-    .SYNOPSIS
+<#<br>
+    .SYNOPSIS<br>
     
-    .DESCRIPTION
+    .DESCRIPTION<br>
     
-    .EXAMPLE
+    .EXAMPLE<br>
     
     .LINK
-    https://github.com/li-berty/--ENTERNAMEHERE--
-#>
+    https://github.com/li-berty/--ENTERNAMEHERE--<br>
+#><br>
 
 [CmdletBinding()]
 param(
