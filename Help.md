@@ -1,8 +1,8 @@
 # Cheat sheet
-**Executing a script**  
+**Executing a script**
 >`powershell.exe –noexit &”c:\myscript.ps1”`  
 
-**Important commands**  
+**Important commands**
 > To get help on a cmdlet *__get-help__*:  
 `Get-Help Get-Service`  
 List of all available cmdlets *__get-command__*:  
@@ -10,12 +10,12 @@ List of all available cmdlets *__get-command__*:
 All properties and methods of an item *__get-member__*:  
 `Get-Service | Get-Member`  
 
-**Setting the security policy**  
+**Setting the security policy**
 >Reading and changing security policy *__Get-Execution__* and *__Set-Execution policy__*:  
 `Get-Executionpolicy`  
 `Set-Executionpolicy remotesigned`  
 
-**Functions** 
+**Functions**
 >Parameters are separated by a blank. Return value is optional.  
 `function sum ([int]$a,[int]$b)`  
 `{`  
@@ -23,17 +23,17 @@ All properties and methods of an item *__get-member__*:
 `}`  
 `sum 4 5`  
 
-**Variables**  
+**Variables**
 >Begin with $  
 `$a = 42`  
 Type specification:  
 `[int]$a = 42`  
 
 **Fields**
->Initialization: 
-`$a = 1,2,4,8`
-Query: 
-`$b = $a[3]`
+>Initialization:  
+`$a = 1,2,4,8`  
+Query:  
+`$b = $a[3]`  
 
 ***
 # Template
