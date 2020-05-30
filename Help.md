@@ -1,8 +1,8 @@
 # Cheat sheet
-**Executing a script**
++**Executing a script**
 >`powershell.exe –noexit &”c:\myscript.ps1”`  
 
-**Important commands**
++**Important commands**
 > To get help on a cmdlet *__get-help__*:  
 `Get-Help Get-Service`  
 List of all available cmdlets *__get-command__*:  
@@ -48,6 +48,11 @@ And queried with $:
 To generate an instance of a .NetFramework object (parameters can be transmitted when necessary) *__New-Object –type (.Net Object)__*:   
 `$d = New-Object -Type System.DateTime 2006,12,25`  
 `$d.get_DayOfWeek()`  
+
+**Using user entries**
+>Read-Host reads user entries:  
+`$a = Read-Host “Enter your name”`  
+`Write-Host "Hello" $a`
 
 ***
 # Template
