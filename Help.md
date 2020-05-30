@@ -12,6 +12,9 @@ Reading and changing security policy *__Get-Execution__* and *__Set-Execution po
 `Get-Executionpolicy`  
 `Set-Executionpolicy remotesigned`  
 
+**Executing a script**  
+`powershell.exe –noexit &”c:\myscript.ps1”`
+
 ***
 
 # Template
