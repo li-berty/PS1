@@ -23,16 +23,14 @@ All properties and methods of an item *__get-member__*:
 > #
 > ###############################################################################################################
 
-> <#  
->   .SYNOPSIS  
->
->   .DESCRIPTION  
->  
->   .EXAMPLE  
->  
->    .LINK  
->    https://github.com/li-berty/--ENTERNAMEHERE--  
-> #>  
+<dl>
+ <dt><#</dt>
+ <dd>.SYNOPSIS</dd>
+ <dd>.DESCRIPTION</dd>
+   <dd>.EXAMPL</dd>
+  <dd>.LINK</dd>
+  <dd>https://github.com/li-berty/--ENTERNAMEHERE--</dd>
+ <dt>#></dt>
 
 [CmdletBinding()]
 param(
