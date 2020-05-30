@@ -1,4 +1,4 @@
-#Cheat sheet
+# Cheat sheet
 
 <b>Important commands</b>`n
 To get help on a cmdlet <i>get-help</i>:`n
@@ -8,7 +8,7 @@ List of all available cmdlets <i>get-command</i>:`n
 All properties and methods of an item <i>get-member</i>:`n
 	Get-Service | Get-Member`n
 
-#Template
+# Template
 "
 ###############################################################################################################
 # Language     :  PowerShel
