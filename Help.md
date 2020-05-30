@@ -9,7 +9,7 @@ All properties and methods of an item *__get-member__*:
 ***
 
 # Template
-
+<pre>
 > ###############################################################################################################
 > # Language    : PowerShel"
 > # Filename    : "
@@ -23,7 +23,6 @@ All properties and methods of an item *__get-member__*:
 > #
 > ###############################################################################################################
 
-<dl>
  <dt><#</dt>
   <dd>.SYNOPSIS</dd>
   <dd>.DESCRIPTION</dd>
@@ -49,3 +48,4 @@ End{
 
 }
 </dl>
+</pre>
