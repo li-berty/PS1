@@ -2,10 +2,10 @@
 **Important commands**<br>
 To get help on a cmdlet *__get-help__*:<br>
 `Get-Help Get-Service`<br>
-List of all available cmdlets <i>get-command</i>:
-	Get-Command
-All properties and methods of an item <i>get-member</i>:
-	Get-Service | Get-Member<br>
+List of all available cmdlets *__get-command__*:<br>
+`	Get-Command`<br>
+All properties and methods of an item *__get-member__*:<br>
+`	Get-Service | Get-Member`<br>
 
 
 # Template
