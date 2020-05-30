@@ -7,7 +7,11 @@ List of all available cmdlets *__get-command__*:
 All properties and methods of an item *__get-member__*:  
 `Get-Service | Get-Member`  
 
-<hr>
+**Setting the security policy**  
+Reading and changing security policy *__Get-Execution__* and *__Set-Execution policy__*:  
+`Get-Executionpolicy`  
+`Set-Executionpolicy remotesigned`  
+
 ***
 
 # Template
