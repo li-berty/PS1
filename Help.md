@@ -15,14 +15,13 @@ All properties and methods of an item *__get-member__*:
 `Get-Executionpolicy`  
 `Set-Executionpolicy remotesigned`  
 
-Functions 
-Parameters are separated by a blank. Return 
-value is optional. 
-function sum ([int]$a,[int]$b) 
-{ 
-  return $a + $b 
-} 
-sum 4 5
+**Functions** 
+>Parameters are separated by a blank. Return value is optional.  
+`function sum ([int]$a,[int]$b)`  
+`{`  
+`	return $a + $b`  
+`}`  
+`sum 4 5`  
 
 ***
 
