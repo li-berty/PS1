@@ -35,6 +35,12 @@ Type specification:
 Query:  
 `$b = $a[3]`  
 
+**Constants**
+>Are created without $:  
+`Set-Variable –name b –value 3.142 –option constant`  
+And queried with $:  
+`$b`  
+
 ***
 # Template
 <pre>
