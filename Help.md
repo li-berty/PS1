@@ -24,7 +24,7 @@ All properties and methods of an item <i>get-member</i>:
 !#
 !###############################################################################################################
 
-<#<br>
+<#
     .SYNOPSIS
     
     .DESCRIPTION
@@ -33,7 +33,7 @@ All properties and methods of an item <i>get-member</i>:
     
     .LINK
     https://github.com/li-berty/--ENTERNAMEHERE--
-#><br>
+#>
 
 [CmdletBinding()]
 param(
