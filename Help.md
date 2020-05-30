@@ -3,9 +3,9 @@
 To get help on a cmdlet *__get-help__*:<br>
 `Get-Help Get-Service`<br>
 List of all available cmdlets *__get-command__*:<br>
-`	Get-Command`<br>
+`Get-Command`<br>
 All properties and methods of an item *__get-member__*:<br>
-`	Get-Service | Get-Member`<br>
+`Get-Service | Get-Member`<br>
 
 
 # Template
@@ -23,16 +23,16 @@ All properties and methods of an item *__get-member__*:<br>
 !#
 !###############################################################################################################
 
-<#
-    .SYNOPSIS
+`<#`
+`    .SYNOPSIS`
     
-    .DESCRIPTION
+`    .DESCRIPTION`
     
-    .EXAMPLE
+`    .EXAMPLE`
     
-    .LINK
-    https://github.com/li-berty/--ENTERNAMEHERE--
-#>
+`    .LINK`
+`    https://github.com/li-berty/--ENTERNAMEHERE--`
+`#>`
 
 [CmdletBinding()]
 param(
