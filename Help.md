@@ -1,4 +1,6 @@
 # Cheat sheet
+[temp]; (Template)
+
 + **Executing a script**
 >`powershell.exe –noexit &”c:\myscript.ps1”`
 
@@ -76,7 +78,8 @@ Several commands in one:
 `$a=1; $b=3; $c=9`
 
 ***
-# Template
+## <a name="temp"></a># Template
+
 <pre>
 ###############################################################################################################
 # Language    : PowerShel"
