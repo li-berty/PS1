@@ -19,12 +19,17 @@ All properties and methods of an item *__get-member__*:
 >Parameters are separated by a blank. Return value is optional.  
 `function sum ([int]$a,[int]$b)`  
 `{`  
-`	return $a + $b`  
+` return $a + $b`  
 `}`  
 `sum 4 5`  
 
-***
+**Variables**  
+>Begin with $  
+`$a = 32`  
+Type specification:  
+`[int]$a = 32`  
 
+***
 # Template
 <pre>
 ###############################################################################################################
