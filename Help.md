@@ -25,9 +25,15 @@ All properties and methods of an item *__get-member__*:
 
 **Variables**  
 >Begin with $  
-`$a = 32`  
+`$a = 42`  
 Type specification:  
-`[int]$a = 32`  
+`[int]$a = 42`  
+
+**Fields**
+>Initialization: 
+`$a = 1,2,4,8`
+Query: 
+`$b = $a[3]`
 
 ***
 # Template
