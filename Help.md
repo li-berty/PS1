@@ -1,4 +1,7 @@
 # Cheat sheet
+**Executing a script**  
+>`powershell.exe –noexit &”c:\myscript.ps1”`  
+
 **Important commands**  
 > To get help on a cmdlet *__get-help__*:  
 `Get-Help Get-Service`  
@@ -12,8 +15,7 @@ All properties and methods of an item *__get-member__*:
 `Get-Executionpolicy`  
 `Set-Executionpolicy remotesigned`  
 
-**Executing a script**  
->`powershell.exe –noexit &”c:\myscript.ps1”`  
+
 
 ***
 
