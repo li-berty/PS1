@@ -2,7 +2,7 @@
 
 <b><u>Important commands</u></b><br>
 To get help on a cmdlet <i>get-help</i>:<br>
-<p><b>Get-Help Get-Service"</b></p><br>
+<b>Get-Help Get-Service</b><br>
 List of all available cmdlets <i>get-command</i>:<br>
 	Get-Command<br>
 All properties and methods of an item <i>get-member</i>:<br>
