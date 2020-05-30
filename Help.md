@@ -1,6 +1,6 @@
 # Cheat sheet
 + **Executing a script**
->`powershell.exe –noexit &”c:\myscript.ps1”`  
+>`powershell.exe –noexit &”c:\myscript.ps1”`
 
 + **Important commands**
 > To get help on a cmdlet *__get-help__*:  
@@ -8,12 +8,12 @@
 List of all available cmdlets *__get-command__*:  
 `Get-Command`  
 All properties and methods of an item *__get-member__*:  
-`Get-Service | Get-Member`  
+`Get-Service | Get-Member`
 
 + **Setting the security policy**
 >Reading and changing security policy *__Get-Execution__* and *__Set-Execution policy__*:  
 `Get-Executionpolicy`  
-`Set-Executionpolicy remotesigned`  
+`Set-Executionpolicy remotesigned`
 
 + **Functions**
 >Parameters are separated by a blank. Return value is optional.  
@@ -21,25 +21,25 @@ All properties and methods of an item *__get-member__*:
 `{`  
 ` return $a + $b`  
 `}`  
-`sum 4 5`  
+`sum 4 5`
 
 + **Variables**
 >Begin with $  
 `$a = 42`  
 Type specification:  
-`[int]$a = 42`  
+`[int]$a = 42`
 
 + **Fields**
 >Initialization:  
-`$a = 1,2,4,8`  
+`$a = 1,2,3,4`  
 Query:  
-`$b = $a[3]`  
+`$b = $a[3]`
 
 + **Constants**
 >Are created without $:  
 `Set-Variable –name b –value 3.142 –option constant`  
 And queried with $:  
-`$b`  
+`$b`
 
 + **Using objects**
 >To generate a new instance of a COM object *__New-Object -comobject (ProgID)__*:  
@@ -47,7 +47,7 @@ And queried with $:
 `$a.username`  
 To generate an instance of a .NetFramework object (parameters can be transmitted when necessary) *__New-Object –type (.Net Object)__*:   
 `$d = New-Object -Type System.DateTime 2006,12,25`  
-`$d.get_DayOfWeek()`  
+`$d.get_DayOfWeek()`
 
 + **Using user entries**
 >Read-Host reads user entries:  
@@ -58,6 +58,12 @@ To generate an instance of a .NetFramework object (parameters can be transmitted
 >Variable name  
 `$a` or `Write-Host $a –foregroundcolor “green”`
 
++ **Command line arguments**
+>Must be transmitted with blanks   
+`myscript.ps1 server1 benp`  
+Can be used in script with $args field  
+`$servername = $args[0]`  
+`$username = $args[1]`
 
 ***
 # Template
