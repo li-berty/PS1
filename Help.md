@@ -1,6 +1,6 @@
 # Cheat sheet
 
-"<b>Important commands</b>" `n
+"<b>Important commands</b> 'n"
 "To get help on a cmdlet <i>get-help</i>:" `n
 "	Get-Help Get-Service" `n
 List of all available cmdlets <i>get-command</i>: `n
