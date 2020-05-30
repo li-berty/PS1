@@ -70,9 +70,8 @@ Can be used in script with $args field
 `# code here not executed`  
 Forward output: **|**  
 `Get-Service | Get-Member`  
-Link break *__(\`Shift^ + space)__*:  
-`Get-Process | Select-Object \``  
-`name, ID`  
+Link break *__\`(Shift^ + space)__*:  
+`Get-Process | Select-Object \` name, ID`  
 Several commands in one:  
 `$a=1; $b=3; $c=9`
 
