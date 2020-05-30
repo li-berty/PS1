@@ -1,11 +1,4 @@
-###############################################################################################################
-# Language     :  PowerShel
-# Filename     :  Base64
-# Autor        :  Berty Li (https://github.com/li-berty)
-# Description  :  PowerShell methods for Encoding & Decoding Base64
-# Version      : 
-# Repository   :  https://github.com/li-berty/--ENTERNAMEHERE--
-###############################################################################################################
+"PowerShell methods for Encoding & Decoding Base64 `n"
 
 "Encoding: `n"
 
