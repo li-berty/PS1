@@ -66,7 +66,7 @@ Can be used in script with $args field
 `$username = $args[1]`
 
 + **Miscellaneous**
-Link break *__(Shift^ + space)__*:  
+>Link break *__(Shift^ + space)__*:  
 `Get-Process | Select-Object``  
 `name, ID`  
 Comments: **#**  
