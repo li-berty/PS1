@@ -1,4 +1,4 @@
-# <a name="chs"></a>Cheat sheet & [Template](#tmp)
+# <a name="chs"></a> Cheat sheet & [Template](#tmp)
 
 + **Executing a script**
 >`powershell.exe –noexit &”c:\myscript.ps1”`
@@ -77,7 +77,7 @@ Several commands in one:
 `$a=1; $b=3; $c=9`
 
 ***
-# <a name="tmp"></a> [Cheat sheet] (#chs) & Template
+# <a name="tmp"></a> [Cheat sheet](#chs) & Template
 
 <pre>
 ###############################################################################################################
