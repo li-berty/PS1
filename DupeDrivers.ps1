@@ -1,10 +1,10 @@
 "Identify and remove duplicate drivers in Windows 10 `n"
 
 param (
-        $Outfile = (Get-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" -Name "Desktop").desktop + "\dupe-drivers.txt",
-        $Backup = "C:\drivers-backup-$("{0:yyyy-MM-dd}" -f (Get-Date))",
-        #Do not include / display the latest dupe drivers used for rollback 
-        [switch]$HideRollback
+$Outfile = (Get-ItemProperty -Path  "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" -Name "Desktop").desktop + "\dupe-drivers.txt",
+$Backup = "C:\drivers-backup-$("{0:yyyy-MM-dd}" -f (Get-Date))",
+#Do not include / display the latest dupe drivers used for rollback 
+[switch]$HideRollback
         )
 
 #Evaluate $HideRollback
