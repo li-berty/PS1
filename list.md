@@ -4,4 +4,5 @@
 | :--- | :--- |
 | [Help](Help.md) | Cheat sheet & template |
 | [Base64](Base64.ps1) | PowerShell methods for Encoding & Decoding Base64 |
+| [DupeDrivers](DupeDrivers.ps1) | Find empty folders in Windows 10 |
 | [EmptyDir](EmptyDir.ps1) | Find empty folders in Windows 10 |
