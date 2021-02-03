@@ -55,14 +55,12 @@ $dupe | Group-Object -Property Name | ForEach-Object {
         $_.Group | Select-Object -First 1 | ForEach-Object {
                 pnputil /export-driver $_.Driver $Backup
             }
-    }
-
+    
+"*WARNING*"
 #Backup all drivers
 $dupe | ForEach-Object {pnputil /export-driver $_.Driver $Backup}
-
 #Delete specific dupe driver by original name
 $dupe | Where-Object {$_.Name -eq 'igdlh64.inf'} | ForEach-Object {pnputil /delete-driver $_.Driver}
-
 #Delete all dupe drivers
 $dupe | ForEach-Object {pnputil /delete-driver $_.Driver}
 
