@@ -64,5 +64,4 @@ $dupe | Where-Object {$_.Name -eq 'igdlh64.inf'} | ForEach-Object {pnputil /dele
 #Delete all dupe drivers
 $dupe | ForEach-Object {pnputil /delete-driver $_.Driver}
 
-# Thanks Vadim Sterkin
-# http://www.outsidethebox.ms/20667
+# Thanks <Vadim Sterkin> http://www.outsidethebox.ms/20667
