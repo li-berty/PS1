@@ -81,11 +81,11 @@ Several commands in one:
 
 <pre>
 ###############################################################################################################
-# Language    : PowerShel"
-# Filename    : "
-# Autor       : Berty Li (https://github.com/li-berty)"
-# Description : "
-# Version     : "
+# Language    : PowerShel
+# Filename    : 
+# Autor       : Berty Li (https://github.com/li-berty)
+# Description : 
+# Version     : 
 # Repository  : https://github.com/li-berty/--ENTERNAMEHERE--
 ###############################################################################################################
 #
