@@ -1,4 +1,4 @@
-"PowerShell methods to extract saved wireless network profiles and passwords `n"
+"PowerShell methods to extract saved wireless network profiles and passwords"
 
 # Method_1
 $profiles=((netsh wlan show profiles) -match '\s{2,}:\s') -replace '.*:\s' , ''; foreach ($name in $profiles){netsh wlan show profile $name key=clear}
