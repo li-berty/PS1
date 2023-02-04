@@ -9,4 +9,5 @@ https://www.youtube.com/watch?v=H7R8OWnMjfs
 | [Base64](Base64.ps1) | PowerShell methods for Encoding & Decoding Base64 |
 | [DupeDrivers](DupeDrivers.ps1) | Identify and remove duplicate drivers in Windows 10 |
 | [EmptyDir](EmptyDir.ps1) | Find empty folders in Windows 10 |
+| [gUSB](gUSB.ps1) | Hidden grabber USB data |
 | [WirelessPasswd](WirelessPasswd.ps1) | PowerShell methods to extract saved wireless network profiles and passwords |
